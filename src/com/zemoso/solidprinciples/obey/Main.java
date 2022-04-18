@@ -12,7 +12,7 @@ public class Main {
         EmailSender sender = new EmailSender();
         sender.sendEmail(e,content);
         EmployeeSalary salary = new EmployeeSalary();
-        salary.totalSalary(e);
+        salary.getSalary(e);
 
 
     }
