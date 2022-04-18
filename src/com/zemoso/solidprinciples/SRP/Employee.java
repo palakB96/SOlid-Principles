@@ -3,10 +3,26 @@ package com.zemoso.solidprinciples.SRP;
 public class Employee {
 
     private String ID;
+    public double salary;
     private String firstname, lastname;
 
     public String getID() {
         return ID;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public Employee(String ID, double salary, String firstname, String lastname) {
+        this.ID = ID;
+        this.salary = salary;
+        this.firstname = firstname;
+        this.lastname = lastname;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 
     public String getFirstname() {
@@ -39,6 +55,7 @@ public class Employee {
     public String toString() {
         return "Employee{" +
                 "ID='" + ID + '\'' +
+                ", salary=" + salary +
                 ", firstname='" + firstname + '\'' +
                 ", lastname='" + lastname + '\'' +
                 '}';
