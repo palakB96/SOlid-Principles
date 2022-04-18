@@ -1,4 +1,4 @@
-package com.zemoso.solidprinciples.SRP;
+package com.zemoso.solidprinciples.obey;
 
 public class EmailSender implements IEmailSender{
     @Override

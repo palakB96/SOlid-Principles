@@ -1,8 +1,6 @@
-package com.zemoso.solidprinciples.SRP;
+package com.zemoso.solidprinciples.obey;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 public class EmployeeStore implements IEmployeeStore{
     HashMap<String,Employee> map = new HashMap<>();
