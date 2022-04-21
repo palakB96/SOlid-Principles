@@ -1,8 +1,6 @@
-package Assignments;
+package JavaAssignments;
 
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
 
 public class ContainsLetters {
 

@@ -1,4 +1,4 @@
-package Assignments;
+package JavaAssignments;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

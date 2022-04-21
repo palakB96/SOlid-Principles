@@ -1,4 +1,4 @@
-package Assignments;
+package JavaAssignments;
 
 public class FIzzBuzz {
    public static void main(String args[])
